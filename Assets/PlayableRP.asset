@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c573f9e00e6ffe443abf5788a0ee95cf, type: 3}
+  m_Name: PlayableRP
+  m_EditorClassIdentifier: 
+  useDynamicBatching: 1
+  useGPUInstancing: 1
+  useSRPBatcher: 1
+  renderingMode: 0
+  shadowSettings:
+    maxDistance: 30
+    distanceFade: 0.1
+    directional:
+      atlasSize: 2048
+      filter: 0
+      cascadeCount: 4
+      cascadeRatio1: 0.1
+      cascadeRatio2: 0.25
+      cascadeRatio3: 0.5
+      cascadeFade: 0.1
+      cascadeBlend: 0
+  iBLSettings:
+    diffuseIBL: {fileID: 8900000, guid: b830c2fc39a04cb4f8a842378e5893cf, type: 3}
+    specularIBL: {fileID: 8900000, guid: c077da6fa805ba649bcd00376739850b, type: 3}
+    brdfLut: {fileID: 2800000, guid: 89252e11f7e138d4d8c66e868b8d5810, type: 3}
