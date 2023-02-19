@@ -31,9 +31,7 @@ public partial class DeferredRenderer
         this.camera = camera;
         PrepareForSceneWindow();
 
-        // cull
-        camera.TryGetCullingParameters(out var cullingParameters);
-        cullingResults = context.Cull(ref cullingParameters);
+
 
 
         context.SetupCameraProperties(camera);
@@ -62,6 +60,8 @@ public partial class DeferredRenderer
         cmd.SetGlobalTexture("_brdfLut", brdfLut);
 
         context.ExecuteCommandBuffer(cmd);
+        camera.TryGetCullingParameters(out var cullingParameters);
+        cullingResults = context.Cull(ref cullingParameters);
 
         // config
         ShaderTagId shaderTagId = new ShaderTagId("GBuffer");
@@ -74,9 +74,10 @@ public partial class DeferredRenderer
         FilteringSettings filteringSettings = FilteringSettings.defaultValue;
         context.DrawRenderers(cullingResults, ref drawingSettings, ref filteringSettings);
 
+        // cull
+
         // setup lighting data
         lighting.Setup(context, cullingResults, shadowSettings);
-
         GBufferPass(context, camera);
         // Setup(cmd);
 
@@ -95,28 +96,6 @@ public partial class DeferredRenderer
         cmd.Blit(gbuffer.gbufferId[0], BuiltinRenderTextureType.CameraTarget, mat);
         context.ExecuteCommandBuffer(cmd);
         context.Submit();
-    }
-
-    void DrawShadows(ScriptableRenderContext context, Camera camera, bool useDynamicBatching, bool useGPUInstancing)
-    {
-        var sortingSettings = new SortingSettings(camera)
-        {
-            criteria = SortingCriteria.CommonOpaque
-        };
-        var drawingSettings = new DrawingSettings(
-            unlitShaderTagId, sortingSettings
-        )
-        {
-            enableDynamicBatching = useDynamicBatching,
-            enableInstancing = useGPUInstancing
-        };
-        drawingSettings.SetShaderPassName(1, litShaderTagId);
-
-        var filteringSettings = new FilteringSettings(RenderQueueRange.opaque);
-
-        context.DrawRenderers(
-            cullingResults, ref drawingSettings, ref filteringSettings
-        );
     }
 
     void ExecuteBuffer(CommandBuffer buffer)
