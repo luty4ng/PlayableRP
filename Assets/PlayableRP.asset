@@ -15,7 +15,8 @@ MonoBehaviour:
   useDynamicBatching: 1
   useGPUInstancing: 1
   useSRPBatcher: 1
-  shadows:
+  renderingMode: 1
+  shadowSettings:
     maxDistance: 100
     distanceFade: 0.1
     directional:
@@ -26,4 +27,8 @@ MonoBehaviour:
       cascadeRatio2: 0.25
       cascadeRatio3: 0.5
       cascadeFade: 0.1
-      cascadeBlend: 0
+      cascadeBlend: 1
+  iBLSettings:
+    diffuseIBL: {fileID: 0}
+    specularIBL: {fileID: 0}
+    brdfLut: {fileID: 0}

@@ -7,7 +7,9 @@ float3 IncomingLight (Surface surface, Light light) {
 		light.color;
 }
 
+
 float3 GetLighting (Surface surface, BRDF brdf, Light light) {
+	// return light.attenuation;
 	return IncomingLight(surface, light) * CookTorranceDirectBRDF(surface, brdf, light);
 }
 

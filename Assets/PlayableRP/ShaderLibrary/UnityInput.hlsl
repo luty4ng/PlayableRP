@@ -9,6 +9,8 @@ CBUFFER_START(UnityPerDraw)
 
     float4x4 unity_MatrixPreviousM;
     float4x4 unity_MatrixPreviousMI;
+
+    float4 _ZBufferParams;
 CBUFFER_END
 
 float4x4 unity_MatrixVP;
