@@ -8,7 +8,7 @@ float3 IncomingLight (Surface surface, Light light) {
 }
 
 float3 GetLighting (Surface surface, BRDF brdf, Light light) {
-	return IncomingLight(surface, light) * DirectBRDF(surface, brdf, light);
+	return IncomingLight(surface, light) * CookTorranceDirectBRDF(surface, brdf, light);
 }
 
 float3 GetLighting (Surface surfaceWS, BRDF brdf) {
