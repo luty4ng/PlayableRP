@@ -15,20 +15,15 @@ MonoBehaviour:
   useDynamicBatching: 1
   useGPUInstancing: 1
   useSRPBatcher: 1
-  renderingMode: 0
-  shadowSettings:
-    maxDistance: 30
+  shadows:
+    maxDistance: 100
     distanceFade: 0.1
     directional:
       atlasSize: 2048
-      filter: 0
+      filter: 3
       cascadeCount: 4
       cascadeRatio1: 0.1
       cascadeRatio2: 0.25
       cascadeRatio3: 0.5
       cascadeFade: 0.1
       cascadeBlend: 0
-  iBLSettings:
-    diffuseIBL: {fileID: 8900000, guid: b830c2fc39a04cb4f8a842378e5893cf, type: 3}
-    specularIBL: {fileID: 8900000, guid: c077da6fa805ba649bcd00376739850b, type: 3}
-    brdfLut: {fileID: 2800000, guid: 89252e11f7e138d4d8c66e868b8d5810, type: 3}
