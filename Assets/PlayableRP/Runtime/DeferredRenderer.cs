@@ -82,10 +82,14 @@ public partial class DeferredRenderer
         lighting.Setup(context, cullingResults, shadowSettings);
 
         DrawFromGBuffer(context, camera);
+
+
+        context.SetupCameraProperties(camera);
         context.DrawSkybox(camera);
+        
         DrawUnsupportedShaders();
         DrawGizmos();
-        // lighting.Cleanup();
+        lighting.Cleanup();
         context.Submit();
     }
 
