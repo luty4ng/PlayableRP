@@ -39,6 +39,7 @@
 
         Pass
         {
+            Name "Lit Pass"
             Tags { "LightMode" = "CustomLit" }
 
             Blend [_SrcBlend] [_DstBlend]

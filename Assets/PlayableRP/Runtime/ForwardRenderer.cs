@@ -85,12 +85,13 @@ public partial class ForwardRenderer {
 			criteria = SortingCriteria.CommonOpaque
 		};
 		var drawingSettings = new DrawingSettings(
-			unlitShaderTagId, sortingSettings
+			litShaderTagId, sortingSettings
 		) {
 			enableDynamicBatching = useDynamicBatching,
 			enableInstancing = useGPUInstancing
 		};
-		drawingSettings.SetShaderPassName(1, litShaderTagId);
+		// drawingSettings.SetShaderPassName(1, litShaderTagId);
+		// Debug.Log(drawingSettings.GetShaderPassName(0).name);
 
 		var filteringSettings = new FilteringSettings(RenderQueueRange.opaque);
 

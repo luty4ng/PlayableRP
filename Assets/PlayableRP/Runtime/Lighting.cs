@@ -47,7 +47,7 @@ public class Lighting
 
     public void Cleanup()
     {
-        shadows.Cleanup();
+        // shadows.Cleanup();
     }
 
     void SetupLights()

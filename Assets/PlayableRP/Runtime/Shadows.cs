@@ -103,7 +103,6 @@ public class Shadows
 
     public void Render()
     {
-        
         if (shadowedDirLightCount > 0)
         {
             RenderDirectionalShadows();
@@ -124,6 +123,7 @@ public class Shadows
             dirShadowAtlasId, atlasSize, atlasSize,
             32, FilterMode.Bilinear, RenderTextureFormat.Shadowmap
         );
+
         buffer.SetRenderTarget(
             dirShadowAtlasId,
             RenderBufferLoadAction.DontCare, RenderBufferStoreAction.Store
