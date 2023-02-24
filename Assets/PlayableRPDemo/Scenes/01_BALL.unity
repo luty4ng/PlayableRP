@@ -158,7 +158,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 1
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &7309334
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -350,7 +350,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.239
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &13496615
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,7 +401,7 @@ MonoBehaviour:
   baseColor: {r: 0.6350386, g: 0.9716981, b: 0.59126914, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &13496618
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -500,7 +500,7 @@ MonoBehaviour:
   baseColor: {r: 0.6650944, g: 1, b: 0.77302, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!65 &21747316
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -614,7 +614,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0.5
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &22851630
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -728,7 +728,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0.25
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &32431153
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -920,7 +920,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.08
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &46883933
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,7 +956,7 @@ MonoBehaviour:
   baseColor: {r: 0.6650944, g: 1, b: 0.77302, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!65 &46883935
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1070,7 +1070,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 1
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &52713794
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1199,7 +1199,7 @@ MonoBehaviour:
   baseColor: {r: 0.990566, g: 0.7477749, b: 0.6868548, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &56065060
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1376,7 +1376,7 @@ MonoBehaviour:
   baseColor: {r: 0.3151633, g: 0.3066038, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &57424891
 GameObject:
   m_ObjectHideFlags: 0
@@ -1490,7 +1490,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 0.9887206, b: 0.9103774, a: 1}
   alphaCutoff: 0.718
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &97062660
 GameObject:
   m_ObjectHideFlags: 0
@@ -1541,7 +1541,7 @@ MonoBehaviour:
   baseColor: {r: 0.6350386, g: 0.9716981, b: 0.59126914, a: 1}
   alphaCutoff: 0.5
   metallic: 1
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &97062663
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1752,7 +1752,7 @@ MonoBehaviour:
   baseColor: {r: 0.9020385, g: 1, b: 0.6556604, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &124779633
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1963,7 +1963,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &129332679
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2271,7 +2271,7 @@ MonoBehaviour:
   baseColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &144727105
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2482,7 +2482,7 @@ MonoBehaviour:
   baseColor: {r: 0.9020385, g: 1, b: 0.6556604, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &163520183
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2775,7 +2775,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 1
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &196331419
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3083,7 +3083,7 @@ MonoBehaviour:
   baseColor: {r: 0.6650944, g: 1, b: 0.77302, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!65 &207770570
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3212,7 +3212,7 @@ MonoBehaviour:
   baseColor: {r: 0.990566, g: 0.7477749, b: 0.6868548, a: 1}
   alphaCutoff: 0.5
   metallic: 0.916
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &278641536
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3326,7 +3326,7 @@ MonoBehaviour:
   baseColor: {r: 0.7311321, g: 0.86053616, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &293864719
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3503,7 +3503,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 0.7783019, b: 0.7804504, a: 1}
   alphaCutoff: 0.483
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &316887927
 GameObject:
   m_ObjectHideFlags: 0
@@ -3539,7 +3539,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &316887929
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3653,7 +3653,7 @@ MonoBehaviour:
   baseColor: {r: 0.6650944, g: 1, b: 0.77302, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!65 &318910705
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3845,7 +3845,7 @@ MonoBehaviour:
   baseColor: {r: 0.99085605, g: 0.495283, b: 1, a: 1}
   alphaCutoff: 0.282
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &331147505
 GameObject:
   m_ObjectHideFlags: 0
@@ -3981,7 +3981,7 @@ MonoBehaviour:
   baseColor: {r: 0.7311321, g: 0.86053616, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &359132332
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4080,7 +4080,7 @@ MonoBehaviour:
   baseColor: {r: 0.6650944, g: 1, b: 0.77302, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!65 &363067814
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4324,7 +4324,7 @@ MonoBehaviour:
   baseColor: {r: 0.72484267, g: 0.6367924, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &421942128
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4438,7 +4438,7 @@ MonoBehaviour:
   baseColor: {r: 0.7311321, g: 0.86053616, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &434618982
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4552,7 +4552,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 1
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &435293670
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4729,7 +4729,7 @@ MonoBehaviour:
   baseColor: {r: 0.4669811, g: 0.688926, b: 1, a: 1}
   alphaCutoff: 0.769
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &447070327
 GameObject:
   m_ObjectHideFlags: 0
@@ -4780,7 +4780,7 @@ MonoBehaviour:
   baseColor: {r: 0.9666375, g: 0.70554465, b: 0.990566, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &447070330
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5185,7 +5185,7 @@ MonoBehaviour:
   baseColor: {r: 0.9666375, g: 0.70554465, b: 0.990566, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &516283132
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5381,7 +5381,7 @@ MonoBehaviour:
   baseColor: {r: 0.68235296, g: 0.8450356, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!65 &522747470
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5883,7 +5883,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0.5
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &600282207
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5997,7 +5997,7 @@ MonoBehaviour:
   baseColor: {r: 0.7294118, g: 1, b: 0.83057296, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!65 &601399967
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6223,7 +6223,7 @@ MonoBehaviour:
   baseColor: {r: 0.7311321, g: 0.86053616, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &611878011
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6322,7 +6322,7 @@ MonoBehaviour:
   baseColor: {r: 0.7311321, g: 0.8140866, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!65 &655743969
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6514,7 +6514,7 @@ MonoBehaviour:
   baseColor: {r: 0.5471698, g: 0.15122512, b: 0.11098256, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &669832167
 GameObject:
   m_ObjectHideFlags: 0
@@ -6759,7 +6759,7 @@ MonoBehaviour:
   baseColor: {r: 0.6350386, g: 0.9716981, b: 0.59126914, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &682462451
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6988,7 +6988,7 @@ MonoBehaviour:
   baseColor: {r: 0.7311321, g: 0.86053616, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0.756
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &718353923
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7181,7 +7181,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0.5
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &729048515
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7407,7 +7407,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.475
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &763286112
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7584,7 +7584,7 @@ MonoBehaviour:
   baseColor: {r: 0.4056604, g: 0.26597545, b: 0.26597545, a: 1}
   alphaCutoff: 0.349
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &791172803
 GameObject:
   m_ObjectHideFlags: 0
@@ -7620,7 +7620,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0.75
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &791172805
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7734,7 +7734,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0.25
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &796945589
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7926,7 +7926,7 @@ MonoBehaviour:
   baseColor: {r: 0.6698113, g: 0.4955783, b: 0, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &807455508
 GameObject:
   m_ObjectHideFlags: 0
@@ -7977,7 +7977,7 @@ MonoBehaviour:
   baseColor: {r: 0.7311321, g: 0.86053616, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &807455511
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8209,7 +8209,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &818408674
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8502,7 +8502,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0.25
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &846713117
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8631,7 +8631,7 @@ MonoBehaviour:
   baseColor: {r: 0.9666375, g: 0.70554465, b: 0.990566, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &856509088
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8745,7 +8745,7 @@ MonoBehaviour:
   baseColor: {r: 0.72484267, g: 0.6367924, b: 1, a: 1}
   alphaCutoff: 0.357
   metallic: 0.353
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &859762737
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8844,7 +8844,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0.25
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &873062830
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8958,7 +8958,7 @@ MonoBehaviour:
   baseColor: {r: 0.6650944, g: 1, b: 0.77302, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!65 &876460029
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9087,7 +9087,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &901141092
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9201,7 +9201,7 @@ MonoBehaviour:
   baseColor: {r: 0.9020385, g: 1, b: 0.6556604, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &904368223
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9300,7 +9300,7 @@ MonoBehaviour:
   baseColor: {r: 0.79901075, g: 0.6666667, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!65 &912227126
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9414,7 +9414,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 0.99623233, b: 0.6839622, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!65 &913442892
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9543,7 +9543,7 @@ MonoBehaviour:
   baseColor: {r: 0.72484267, g: 0.6367924, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &921198028
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9720,7 +9720,7 @@ MonoBehaviour:
   baseColor: {r: 0.33962262, g: 0.05286579, b: 0.05286579, a: 1}
   alphaCutoff: 0.248
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &935714344
 GameObject:
   m_ObjectHideFlags: 0
@@ -10062,7 +10062,7 @@ MonoBehaviour:
   baseColor: {r: 0.9020385, g: 1, b: 0.6556604, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &977074008
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10273,7 +10273,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1020299219
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10450,7 +10450,7 @@ MonoBehaviour:
   baseColor: {r: 0.42828262, g: 0.15979885, b: 0.5377358, a: 1}
   alphaCutoff: 0.702
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &1032828891
 GameObject:
   m_ObjectHideFlags: 0
@@ -10486,7 +10486,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1032828893
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10775,7 +10775,7 @@ MonoBehaviour:
   baseColor: {r: 0.5471652, g: 1, b: 0.3254717, a: 1}
   alphaCutoff: 0.634
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &1059431673
 GameObject:
   m_ObjectHideFlags: 0
@@ -11112,7 +11112,7 @@ MonoBehaviour:
   baseColor: {r: 0.72484267, g: 0.6367924, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1117054698
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11386,7 +11386,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 0.5990566, b: 0.5990566, a: 1}
   alphaCutoff: 0.315
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &1146553494
 GameObject:
   m_ObjectHideFlags: 0
@@ -11500,7 +11500,7 @@ MonoBehaviour:
   baseColor: {r: 0.63678074, g: 0.30215383, b: 0.6603774, a: 1}
   alphaCutoff: 0.349
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &1147205914
 GameObject:
   m_ObjectHideFlags: 0
@@ -11648,7 +11648,7 @@ MonoBehaviour:
   baseColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
   alphaCutoff: 0.5
   metallic: 1
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1170426002
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11762,7 +11762,7 @@ MonoBehaviour:
   baseColor: {r: 0.990566, g: 0.7477749, b: 0.6868548, a: 1}
   alphaCutoff: 0.5
   metallic: 0.506
-  roughness: 0.473
+  smoothness: 0.5
 --- !u!135 &1180910134
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12014,7 +12014,7 @@ MonoBehaviour:
   baseColor: {r: 0.6650944, g: 1, b: 0.77302, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!65 &1231081159
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12143,7 +12143,7 @@ MonoBehaviour:
   baseColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1231376838
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12320,7 +12320,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 0.71488464, b: 0, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &1258860834
 GameObject:
   m_ObjectHideFlags: 0
@@ -12453,7 +12453,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0.75
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1285237276
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12683,7 +12683,7 @@ MonoBehaviour:
   baseColor: {r: 0.9020385, g: 1, b: 0.6556604, a: 1}
   alphaCutoff: 0.239
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1337068857
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12860,7 +12860,7 @@ MonoBehaviour:
   baseColor: {r: 0, g: 0.89049053, b: 1, a: 1}
   alphaCutoff: 0.693
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &1342113029
 GameObject:
   m_ObjectHideFlags: 0
@@ -12896,7 +12896,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0.75
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1342113031
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13117,7 +13117,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0.75
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1350214059
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13309,7 +13309,7 @@ MonoBehaviour:
   baseColor: {r: 0.55108577, g: 0.61866397, b: 0.9056604, a: 1}
   alphaCutoff: 0.239
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &1403377212
 GameObject:
   m_ObjectHideFlags: 0
@@ -13360,7 +13360,7 @@ MonoBehaviour:
   baseColor: {r: 0.6350386, g: 0.9716981, b: 0.59126914, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1403377215
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13459,7 +13459,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0.25
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1403531047
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13573,7 +13573,7 @@ MonoBehaviour:
   baseColor: {r: 0.84474796, g: 0.759434, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!65 &1414653308
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13765,7 +13765,7 @@ MonoBehaviour:
   baseColor: {r: 0.17288181, g: 0.3301887, b: 0.23265056, a: 1}
   alphaCutoff: 0.735
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &1428339882
 GameObject:
   m_ObjectHideFlags: 0
@@ -13816,7 +13816,7 @@ MonoBehaviour:
   baseColor: {r: 0.7311321, g: 0.86053616, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1428339885
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13993,7 +13993,7 @@ MonoBehaviour:
   baseColor: {r: 0.9150943, g: 0.89056176, b: 0.48776254, a: 1}
   alphaCutoff: 0.235
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &1431896651
 GameObject:
   m_ObjectHideFlags: 0
@@ -14126,7 +14126,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 1
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1434458785
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14449,7 +14449,7 @@ MonoBehaviour:
   baseColor: {r: 0.9666375, g: 0.70554465, b: 0.990566, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1467523221
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14645,7 +14645,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 1
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1480914597
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14871,7 +14871,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1492045088
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15060,7 +15060,7 @@ MonoBehaviour:
   baseColor: {r: 0.9020385, g: 1, b: 0.6556604, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1528906240
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15306,7 +15306,7 @@ MonoBehaviour:
   baseColor: {r: 0.9666375, g: 0.70554465, b: 0.990566, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1603599159
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15420,7 +15420,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1609865732
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15534,7 +15534,7 @@ MonoBehaviour:
   baseColor: {r: 0.72484267, g: 0.6367924, b: 1, a: 0.9019608}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1612007460
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15633,7 +15633,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0.75
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1629874935
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15826,7 +15826,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &1645389705
 GameObject:
   m_ObjectHideFlags: 0
@@ -15877,7 +15877,7 @@ MonoBehaviour:
   baseColor: {r: 0.990566, g: 0.7477749, b: 0.6868548, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1645389708
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -16075,7 +16075,7 @@ MonoBehaviour:
   baseColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1653347230
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -16286,7 +16286,7 @@ MonoBehaviour:
   baseColor: {r: 0.72484267, g: 0.6367924, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1695304137
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -16513,7 +16513,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1706533293
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -16642,7 +16642,7 @@ MonoBehaviour:
   baseColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1720865118
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -16756,7 +16756,7 @@ MonoBehaviour:
   baseColor: {r: 0.9666375, g: 0.70554465, b: 0.990566, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1734926731
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -16967,7 +16967,7 @@ MonoBehaviour:
   baseColor: {r: 0.7311321, g: 0.86053616, b: 1, a: 1}
   alphaCutoff: 0.298
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1782004220
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -17144,7 +17144,7 @@ MonoBehaviour:
   baseColor: {r: 0.2325116, g: 0.595324, b: 0.8962264, a: 1}
   alphaCutoff: 0.366
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &1816690869
 GameObject:
   m_ObjectHideFlags: 0
@@ -17180,7 +17180,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1816690871
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -17309,7 +17309,7 @@ MonoBehaviour:
   baseColor: {r: 0.7311321, g: 0.86053616, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1818151700
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -17423,7 +17423,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 0.60784316}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1856745837
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -17747,7 +17747,7 @@ MonoBehaviour:
   baseColor: {r: 0.6650944, g: 1, b: 0.77302, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!65 &1912387105
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17861,7 +17861,7 @@ MonoBehaviour:
   baseColor: {r: 0.6650944, g: 1, b: 0.77302, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!65 &1915438014
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18053,7 +18053,7 @@ MonoBehaviour:
   baseColor: {r: 0.18383993, g: 0.46226418, b: 0.09376113, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &1927595834
 GameObject:
   m_ObjectHideFlags: 0
@@ -18316,7 +18316,7 @@ MonoBehaviour:
   baseColor: {r: 0.990566, g: 0.7477749, b: 0.6868548, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1933946947
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -18493,7 +18493,7 @@ MonoBehaviour:
   baseColor: {r: 0.507209, g: 0.7411159, b: 0.7735849, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &1940481654
 GameObject:
   m_ObjectHideFlags: 0
@@ -18529,7 +18529,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1940481656
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -18658,7 +18658,7 @@ MonoBehaviour:
   baseColor: {r: 0.6350386, g: 0.9716981, b: 0.59126914, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &1965230374
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -19364,7 +19364,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 0.8254717, b: 0.8254717, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!65 &2035396380
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19493,7 +19493,7 @@ MonoBehaviour:
   baseColor: {r: 0.72484267, g: 0.6367924, b: 1, a: 1}
   alphaCutoff: 0.08
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &2036625972
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -19607,7 +19607,7 @@ MonoBehaviour:
   baseColor: {r: 0.990566, g: 0.7477749, b: 0.6868548, a: 1}
   alphaCutoff: 0.5
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &2061920351
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -19784,7 +19784,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.744
   metallic: 0
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!1 &2075450785
 GameObject:
   m_ObjectHideFlags: 0
@@ -19900,7 +19900,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0.5
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &2088276785
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -20082,7 +20082,7 @@ MonoBehaviour:
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   alphaCutoff: 0.5
   metallic: 0.5
-  roughness: 0.5
+  smoothness: 0.5
 --- !u!135 &2117025721
 SphereCollider:
   m_ObjectHideFlags: 0

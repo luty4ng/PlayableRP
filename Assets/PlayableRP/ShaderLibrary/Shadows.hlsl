@@ -136,11 +136,12 @@ float GetDirectionalShadowAttenuation(
     }
     float3 normalBias = surfaceWS.normal *
     (directional.normalBias * _CascadeData[global.cascadeIndex].y);
+    // _DirectionalShadowMatrices[i] = light space matrix
+    // normalBias to prevent acne
     float3 positionSTS = mul(
         _DirectionalShadowMatrices[directional.tileIndex],
         float4(surfaceWS.position + normalBias, 1.0)
     ).xyz;
-    // return _CascadeCount/8.0;
     float shadow = FilterDirectionalShadow(positionSTS);
     
     if (global.cascadeBlend < 1.0)

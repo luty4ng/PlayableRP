@@ -12,33 +12,33 @@
 // 	UNITY_DEFINE_INSTANCED_PROP(float, _Cutoff)
 // UNITY_INSTANCING_BUFFER_END(UnityPerMaterial)
 
-struct Attributes {
+struct a2v {
 	float3 positionOS : POSITION;
-	float2 baseUV : TEXCOORD0;
+	float2 uv : TEXCOORD0;
 	UNITY_VERTEX_INPUT_INSTANCE_ID
 };
 
-struct Varyings {
+struct v2f {
 	float4 positionCS : SV_POSITION;
-	float2 baseUV : VAR_BASE_UV;
+	float2 uv : VAR_BASE_UV;
 	UNITY_VERTEX_INPUT_INSTANCE_ID
 };
 
-Varyings UnlitPassVertex (Attributes input) {
-	Varyings output;
+v2f UnlitPassVertex (a2v input) {
+	v2f output;
 	UNITY_SETUP_INSTANCE_ID(input);
 	UNITY_TRANSFER_INSTANCE_ID(input, output);
 	float3 positionWS = TransformObjectToWorld(input.positionOS);
 	output.positionCS = TransformWorldToHClip(positionWS);
 
 	float4 baseST = UNITY_ACCESS_INSTANCED_PROP(UnityPerMaterial, _BaseMap_ST);
-	output.baseUV = input.baseUV * baseST.xy + baseST.zw;
+	output.uv = input.uv * baseST.xy + baseST.zw;
 	return output;
 }
 
-float4 UnlitPassFragment (Varyings input) : SV_TARGET {
+float4 UnlitPassFragment (v2f input) : SV_TARGET {
 	UNITY_SETUP_INSTANCE_ID(input);
-	float4 baseMap = SAMPLE_TEXTURE2D(_BaseMap, sampler_BaseMap, input.baseUV);
+	float4 baseMap = SAMPLE_TEXTURE2D(_BaseMap, sampler_BaseMap, input.uv);
 	float4 baseColor = UNITY_ACCESS_INSTANCED_PROP(UnityPerMaterial, _BaseColor);
 	float4 base = baseMap * baseColor;
 	#if defined(_CLIPPING)

@@ -67,20 +67,7 @@ sysinfo.txt
 
 # Crashlytics generated file
 
-Assets/Resources/Model/Character/M_ethan_head/uv_01.psd
-Assets/Resources/Model/Building/R_heya_toilet/Textures/T_H_T_02.psd
-Assets/Resources/Model/Building/R_heya_toilet/Textures/T_H_T_01.psd
-Assets/Resources/Model/Building/R_heya_parlor/Textures/M_Heya_parlor_Ma_H_P_06_AlbedoTransparency.psd
-Assets/Resources/Model/Building/R_heya_parlor/Textures/M_Heya_parlor_Ma_H_P_05_AlbedoTransparency.psd
-Assets/Resources/Model/Building/R_heya_parlor/Textures/M_Heya_parlor_Ma_H_P_04_AlbedoTransparency.psd
-Assets/Resources/Model/Building/R_heya_parlor/Textures/M_Heya_parlor_Ma_H_P_03_AlbedoTransparency.psd
-Assets/Resources/Model/Building/R_heya_parlor/Textures/M_Heya_parlor_Ma_H_P_02_AlbedoTransparency.psd
-Assets/Resources/Model/Building/R_heya_parlor/Textures/M_Heya_parlor_Ma_H_P_01_AlbedoTransparency.psd
-Assets/Resources/Model/Building/R_heya_parlor/Textures/M_Heya_parlor_Ma_H_P_01_AlbedoTransparency.psd.meta
-Assets/Resources/Model/Building/R_heya_parlor/Textures/M_Heya_parlor_Ma_H_P_02_AlbedoTransparency.psd.meta
-Assets/Resources/Model/Building/R_heya_parlor/Textures/M_Heya_parlor_Ma_H_P_03_AlbedoTransparency.psd.meta
-Assets/Resources/Model/Building/R_heya_parlor/Textures/M_Heya_parlor_Ma_H_P_04_AlbedoTransparency.psd.meta
-Assets/Resources/Model/Building/R_heya_parlor/Textures/M_Heya_parlor_Ma_H_P_05_AlbedoTransparency.psd.meta
-Assets/Resources/Model/Building/R_heya_parlor/Textures/M_Heya_parlor_Ma_H_P_06_AlbedoTransparency.psd.meta
-Assets/Resources/Model/Building/R_heya_toilet/Textures/T_H_T_02.psd.meta
-Assets/Resources/Model/Building/R_heya_toilet/Textures/T_H_T_01.psd.meta
+Assets/ShaderlabVSCode
+Assets/Quixel
+Assets/UnityPackages
+Assets/URPDemo

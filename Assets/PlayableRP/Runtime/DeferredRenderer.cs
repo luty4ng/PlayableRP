@@ -36,7 +36,6 @@ public partial class DeferredRenderer
         for (int i = 0; i < 4; i++)
             Shader.SetGlobalTexture("_GT" + i, gbuffer.gbuffers[i]);
 
-        // rws matrix
         Matrix4x4 viewMatrix = camera.worldToCameraMatrix;
         Matrix4x4 projMatrix = GL.GetGPUProjectionMatrix(camera.projectionMatrix, false);
         Matrix4x4 vpMatrix = projMatrix * viewMatrix;
@@ -44,7 +43,6 @@ public partial class DeferredRenderer
         Shader.SetGlobalMatrix("_vpMatrix", vpMatrix);
         Shader.SetGlobalMatrix("_vpMatrixInv", vpMatrixInv);
 
-        // ibl maps
         Shader.SetGlobalTexture("_diffuseIBL", diffuseIBL);
         Shader.SetGlobalTexture("_specularIBL", specularIBL);
         Shader.SetGlobalTexture("_brdfLut", brdfLut);
@@ -80,9 +78,7 @@ public partial class DeferredRenderer
         ExecuteBuffer(cmd);
 
         lighting.Setup(context, cullingResults, shadowSettings);
-
         DrawFromGBuffer(context, camera);
-
 
         context.SetupCameraProperties(camera);
         context.DrawSkybox(camera);

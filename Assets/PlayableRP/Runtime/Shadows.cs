@@ -237,6 +237,7 @@ public class Shadows
 
     Matrix4x4 ConvertToAtlasMatrix(Matrix4x4 m, Vector2 offset, int split)
     {
+        // light space matrix scaling and offsetting the XYZ dimensions by half[]
         if (SystemInfo.usesReversedZBuffer)
         {
             m.m20 = -m.m20;

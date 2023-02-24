@@ -234,9 +234,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseColor: {r: 1, g: 0.10849059, b: 0.10849059, a: 1}
-  alphaCutoff: 0.489
-  metallic: 0.489
-  smoothness: 0.478
+  alphaCutoff: 0.516
+  metallic: 0.524
+  smoothness: 0.528
 --- !u!1 &190343795
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,9 +441,10 @@ Transform:
   m_LocalPosition: {x: 6.02, y: 0.43, z: -4.433}
   m_LocalScale: {x: 3, y: 0.109554, z: 3}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1882943372}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
 --- !u!1 &601611333
 GameObject:
@@ -635,13 +636,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882943367}
-  m_LocalRotation: {x: -0.70710576, y: -0, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: 4.58, y: 0.43, z: -2.883}
-  m_LocalScale: {x: 3, y: 0.109554, z: 3}
+  m_LocalRotation: {x: -0.00000008940697, y: -0.000002115965, z: -0.70710576, w: 0.7071079}
+  m_LocalPosition: {x: -0.5166682, y: 13.144161, z: 0}
+  m_LocalScale: {x: 27.383755, y: 0.036517993, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 586205605}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &1909101575
 GameObject:

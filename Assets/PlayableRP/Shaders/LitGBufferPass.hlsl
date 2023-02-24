@@ -5,7 +5,7 @@
 #include "../ShaderLibrary/Shadows.hlsl"
 #include "../ShaderLibrary/Light.hlsl"
 #include "../ShaderLibrary/BRDF.hlsl"
-// #include "../ShaderLibrary/GI.hlsl"
+#include "../ShaderLibrary/GI.hlsl"
 #include "../ShaderLibrary/Lighting.hlsl"
 #include "../ShaderLibrary/UnityGBuffer.hlsl"
 

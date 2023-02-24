@@ -9,7 +9,7 @@ Shader "Hidden/Playable RP/StencilDeferred"
         #include "../../ShaderLibrary/Shadows.hlsl"
         #include "../../ShaderLibrary/Light.hlsl"
         #include "../../ShaderLibrary/BRDF.hlsl"
-        // #include "../../ShaderLibrary/GI.hlsl"
+        #include "../../ShaderLibrary/GI.hlsl"
         #include "../../ShaderLibrary/Lighting.hlsl"
         #include "../../ShaderLibrary/UnityGBuffer.hlsl"
         ENDHLSL
@@ -63,13 +63,8 @@ Shader "Hidden/Playable RP/StencilDeferred"
                     BRDF brdf = GetBRDF(surface);
                 #endif
 
-                // GI gi = GetIBL(i.uv, surface);
-                // // GI gi = GetGI(GI_FRAGMENT_DATA(i), surface);
-                // return float4(surface.color, 1);
-
-                float3 color = GetLighting(surface, brdf);
-                // return float4(color, 1);
-                // float3 color = float3(0, 1, 0);
+                GI gi = GetIBL(i.uv, surface);
+                float3 color = GetLighting(surface, brdf, gi);
                 color += surface.emission;
                 return float4(color, surface.alpha);
             }
